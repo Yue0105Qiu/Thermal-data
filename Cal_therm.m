@@ -11,4 +11,5 @@
 % 2. peak: min / max T_point and y_point.
 
 clc; clear;
-[result] = fun_plot('thermo_test.dat',["Cp", "H"]);
+close all;
+[result] = fun_plot('thermo_test.dat',["Cp", "H","S"]);%["Cp", "H","S"]
